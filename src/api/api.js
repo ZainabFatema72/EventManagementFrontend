@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://eventmanagement-m7ri.onrender.com',
+  baseURL: 'https://eventmanagement-m7ri.onrender.com/api' 
 });
 
 // Auto-attach token to every request if it exists
